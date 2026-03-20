@@ -108,3 +108,4 @@ curl -X POST http://localhost:3000/assistant/process \
 - O backend usa Responses API com Structured Outputs
 - Se a OpenAI responder algo invalido, o backend converte para `mode=ERROR` controlado
 - O endpoint devolve sempre um envelope previsivel no schema do Lua
+- O contrato congelado entre app e backend esta documentado em `../docs/assistant-contract.md`
